@@ -26,3 +26,9 @@ In this Assignment, I implemented a decision tree classifier to classify mushroo
 - Implemented entropy calculation to measure impurity at a node
 - Understood the concept of `p₁` (probability of positive class)
 - Learned that entropy is 0 when all examples belong to the same class, and maximum when classes are balanced
+
+### 3. **Information Gain**
+- Implemented information gain calculation to evaluate the quality of a split
+- Learned the formula: `Information Gain = H(node) - weighted entropy of children`
+- Understood that higher information gain indicates a better split
+
