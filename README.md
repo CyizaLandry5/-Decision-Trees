@@ -32,3 +32,15 @@ In this Assignment, I implemented a decision tree classifier to classify mushroo
 - Learned the formula: `Information Gain = H(node) - weighted entropy of children`
 - Understood that higher information gain indicates a better split
 
+### 4. **Data Splitting**
+- Implemented function to split dataset into left and right branches based on a feature value
+- Learned to work with one-hot encoded features for binary splits
+
+### 5. **Tree Building Algorithm**
+- Implemented the recursive process of building a decision tree
+- Understood stopping criteria (maximum depth)
+- Learned how to select the best feature at each node
+
+---
+
+## What I Accomplished
