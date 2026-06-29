@@ -22,3 +22,7 @@ In this Assignment, I implemented a decision tree classifier to classify mushroo
 - Learned how decision trees make predictions by recursively splitting data based on features
 - Understood the importance of choosing the right features for splitting
 
+### 2. **Entropy and Impurity Measures**
+- Implemented entropy calculation to measure impurity at a node
+- Understood the concept of `p₁` (probability of positive class)
+- Learned that entropy is 0 when all examples belong to the same class, and maximum when classes are balanced
