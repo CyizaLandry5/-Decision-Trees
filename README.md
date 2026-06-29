@@ -78,3 +78,28 @@ In this Assignment, I implemented a decision tree classifier to classify mushroo
 - Understood how the tree classifies mushrooms as edible (1) or poisonous (0)
 
 ---
+
+## Dataset Overview
+
+The dataset contains 10 mushroom examples with three features:
+
+| Feature | Description |
+|---------|-------------|
+| Brown Cap | 1 = Brown, 0 = Red |
+| Tapering Stalk Shape | 1 = Tapering, 0 = Enlarging |
+| Solitary | 1 = Yes, 0 = No |
+
+**Target variable:**
+- 1 = Edible
+- 0 = Poisonous
+
+---
+
+## Technical Implementation
+
+### Technologies Used
+- **Python 3**
+- **NumPy** - for numerical computations
+- **Matplotlib** - for visualizations
+- **Jupyter Notebook** - for interactive development
+
