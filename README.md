@@ -58,3 +58,23 @@ In this Assignment, I implemented a decision tree classifier to classify mushroo
 3. **`compute_information_gain(X, y, node_indices, feature)`**
    - Computed information gain from splitting on a feature
    - Used entropy values and branch weights
+
+4. **`get_best_split(X, y, node_indices)`**
+   - Determined the best feature to split on
+   - Found feature with maximum information gain
+
+### ✅ Built a Decision Tree
+
+- Applied the implemented functions to build a decision tree with maximum depth of 2
+- Used the dataset of 10 mushroom examples with 3 features:
+  - **Brown Cap** (feature 0)
+  - **Tapering Stalk Shape** (feature 1)
+  - **Solitary** (feature 2)
+
+### ✅ Achieved Understanding
+
+- Discovered that **Solitary** (feature 2) provides the highest information gain (0.278) at the root node
+- Visualized the tree structure and decision-making process
+- Understood how the tree classifies mushrooms as edible (1) or poisonous (0)
+
+---
