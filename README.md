@@ -103,3 +103,17 @@ The dataset contains 10 mushroom examples with three features:
 - **Matplotlib** - for visualizations
 - **Jupyter Notebook** - for interactive development
 
+### Key Functions Implemented
+
+```python
+def compute_entropy(y):
+    # Calculate entropy at a node
+    
+def split_dataset(X, node_indices, feature):
+    # Split dataset into left and right branches
+    
+def compute_information_gain(X, y, node_indices, feature):
+    # Calculate information gain from a split
+    
+def get_best_split(X, y, node_indices):
+    # Find the best feature to split on
