@@ -44,3 +44,17 @@ In this Assignment, I implemented a decision tree classifier to classify mushroo
 ---
 
 ## What I Accomplished
+
+### ✅ Implemented Core Functions
+
+1. **`compute_entropy(y)`**
+   - Calculated entropy at a given node
+   - Handled edge cases (empty arrays, pure nodes)
+
+2. **`split_dataset(X, node_indices, feature)`**
+   - Split data into left and right branches based on a feature value
+   - Returned indices for both branches
+
+3. **`compute_information_gain(X, y, node_indices, feature)`**
+   - Computed information gain from splitting on a feature
+   - Used entropy values and branch weights
